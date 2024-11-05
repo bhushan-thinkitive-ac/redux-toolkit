@@ -20,12 +20,14 @@ function App() {
 
   return (
     <div className="container">
-      <button onClick={handleIncrementClick}>Increment</button>
-      <p>Count: {count}</p>
-      <button onClick={handleDecrementClick}>Decrement</button>
+      <h1 style={{ color: '#a3d9ea' }}>Counter App (Redux Toolkit)</h1>
+
+      <button style={{ color: 'teal', font: 'message-box' }} onClick={handleIncrementClick}>Increment</button>
+      <h1 style={{ color: 'red' }}>Count: {count}</h1>
+      <button style={{ color: 'teal', font: 'message-box' }} onClick={handleDecrementClick}>Decrement</button>
       <p></p>
-      <button onClick={handleResetClick}>|Reset|</button>
-    </div>
+      <button style={{ color: 'green' }} onClick={handleResetClick}>|Reset|</button>
+    </div >
   );
 }
 
